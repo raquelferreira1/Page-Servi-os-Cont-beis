@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title> Serviços Contábeis </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="title-nav"> Serviços Contábeis </h2>
+            <a href="#title-sobre" class="link-nav"> Quem Somos </a>
+            <a href="#title-center" class="link-nav"> Serviços </a>
+            <a class="link-nav" onclick="formularioVisivel()"> Contato </a>
+        </nav>
+
+        <h1> Serviços Contábeis </h1>
+
+        <form id="formulario" action="https://formsubmit.co/raquel.riosferreira@gmail.com" method="POST">
+            <h3 id="title-form"> Entre em contato </h3>
+            <label>
+                Nome
+                <input type="text" name="Nome" placeholder="Nome completo" required>
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="e-mail" placeholder="seuemail@email.com" required>
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu número" required>
+            </label>
+
+            <label>
+                Fale conosco
+                <textarea name="info" placeholder="Qual sua dúvida?"></textarea>
+            </label>
+
+            <button type="submit"> Enviar </button>
+        </form>
+    </header>
+
+    <h2 id="title-center"> Nossos serviços </h2>
+    <main>
+        <section class="card">
+            <h3 class="title-card"> Serviços </h3>
+            <ul>
+                <li> Conta Digital PJ </li>
+                <li> Link de pagamento </li>
+                <li> Certificado digital </li>
+                <li> NFS-E </li>
+                <li> Escritório virtual </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3 class="title-card"> Ferramentas </h3>
+            <ul>
+                <li> Calculadora Pj x CLT </li>
+                <li> Calculadora de Fator R </li>
+                <li> Calculadora para abrir CNPJ </li>
+                <li> Calculadora de CNAE </li>
+                <li> Calculadora de RPA </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3 class="title-card"> Conteúdos </h3>
+            <ul>
+                <li> Comparativo Pj x CLT </li>
+                <li> MEI </li>
+                <li> Abertura de empresa </li>
+                <li> Simples Nacional </li>
+                <li> Tributação </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2 id="title-sobre"> Sobre nós </h2>
+        <p> Estamos presente no mercado há mais de 4 décadas auxiliando nossos clientes nacionais e internacionais que
+            já atuam ou desejam abrir seus negócios e ingressar no Brasil.
+
+            Assessoramos investidores que queiram prospectar seus negócios no Brasil e investidores (“brasileiros”)
+            interessados em fazer negócios em outros países.
+            Oferecemos “backoffice” nas áreas Financeira, Recursos Humanos, Tributária e Contabilidade, inclusive a
+            abertura, legalização e regularização de empresas e negócios.
+
+            Com pesquisas de mercado, montamos toda estrutura organizacional, ambiente operacional e logística de suas
+            atividades, com profissionais qualificados, competentes e continuamente treinados.
+
+            Somos especialistas em empresas tributadas pelo LUCRO REAL e Contabilidade em IFRS. Assim, o Planejamento
+            das
+            Operações e suas consequências tributárias passam a ser condições de competitividade, inclusive sugerindo
+            incorporação ou desmembramento de atividades.</p>
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+</html>
