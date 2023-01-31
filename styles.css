@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-image: url("./assets/contabel.png");
     height: 90vh;
