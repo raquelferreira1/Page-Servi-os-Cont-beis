@@ -40,8 +40,12 @@ header {
 }
 
 nav {
-    padding-top: 38px;
-    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    flex-direction: row;
+    padding-top: 2rem;
 }
 
 h1 {
