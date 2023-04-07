@@ -2,7 +2,7 @@
 
 ## 📝 Sobre
 
-Home page para apresentação de serviços disponibilizados e formulário para contato com a empresa por e-mail.
+Home page para apresentação de serviços disponibilizados e formulário para contato com a empresa.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -12,7 +12,7 @@ Home page para apresentação de serviços disponibilizados e formulário para c
 
 ### 📌 Alguns Destaques
 
-- Formulário direciona mensagem diretamente para o e-mail da empresa;
+- Ao clicar em contato, surge formulário que direciona mensagem diretamente para o e-mail da empresa;
 - HTML Semântico
 
 > Para ver o projeto on-line clique **[AQUI](https://raquelferreira1.github.io/Servicos-Contabeis/)**
